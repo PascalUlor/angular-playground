@@ -15,7 +15,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ngplayground/material": ["libs/material/src/index.ts"],
+      "@ngplayground/core-data": ["libs/core-data/src/index.ts"],
+      "@ngplayground/ui-login": ["libs/ui-login/src/index.ts"],
+      "@ngplayground/ui-toolbar": ["libs/ui-toolbar/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
